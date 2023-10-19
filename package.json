@@ -1,0 +1,24 @@
+{
+  "name": "usabilidad",
+  "version": "1.0.0",
+  "description": "La siguiente página web esta incompleta y con muchos problemas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasriosdoc/primer-repo-desarrollo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasriosdoc/primer-repo-desarrollo/issues"
+  },
+  "homepage": "https://github.com/matiasriosdoc/primer-repo-desarrollo#readme",
+  
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
