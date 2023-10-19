@@ -1,0 +1,108 @@
+body {
+  background-color: #000333;
+}
+
+h1 {
+  color: #white;
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/*Menu*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+  }
+
+li {
+	text-align: center;
+	display: block;
+  }
+
+  li a {
+	display: block;
+	color: #000000;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #000333;
+	color: white;
+  }
+
+
+.menu  {
+    width: 20%;
+	float: left;
+	border: 1px dotted green;
+	margin-right: 1em;
+	padding: 1em;
+	background-color: #00FFFF;
+	
+}
+.caja  {
+  width: 20%;
+	float: right;
+	border: 1px dotted green;
+	margin-left: 1em;
+	padding: 1em;
+	
+	
+}
+.caja p  {
+	font-family: cursive;
+	font-size: 15px;	
+}
+
+.contenido  {
+  width: 45%;
+  float: left;
+  padding: 0.5em;
+  background-color: #00FFFF;
+}
+
+/* De la pagina de Productos*/
+.producto {
+	width: 16em;
+	height: 16em;
+	border: 2px solid #000;
+	float:left;
+	margin: 0.5em;
+	padding: 0.5em;
+
+}
+.titulo{
+	margin: 0.5em;
+	font-family: cursive;
+	font-size: 20px;	
+	font-weight: bold;
+	text-align: center;
+}
+.descripcion{
+	margin: 0.5em;
+	font-family: cursive;
+	font-size: 15px;	
+	font-style: italic;
+}
+
+.producto img{ 
+	text-align:center;
+	display: block;
+	width: 170px;
+	margin: auto;
+}
+/* De la pagina de Contacto*/
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	text-decoration: none;
+  }
+  
